@@ -9,7 +9,7 @@ const moment = require('moment')
 
 // body-parser setup  --- for global middleware setup we use app.use      for perticular routes we define middleware in routes
 const bodyParser = require('body-parser')
-app.use(bodyParser.urlencoded({ extended: false }));
+app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 
