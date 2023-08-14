@@ -11,7 +11,7 @@ Task based Setup like we are using
     models/
     controllers/
     middlewares/
-    repo
+    repo   :     database re related logic which will impact data like user creation deletion updation logics
     routes
     utils/
     services/
@@ -47,3 +47,6 @@ DB Design
 ### City -> id, name, created_at, updated_at
 ### Airport -> id, name, address, city_id, created_at, updated_at
     Relationship -> City has many airports and Airport belongs to a city (one to many)
+
+
+
