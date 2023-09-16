@@ -22,6 +22,8 @@ Task based Setup like we are using
 -temp/
 
 
+
+
 <!-- ======================================= -->
 structure:
 user request <-----> controller -------->  services --------->  repository/ repo ------------> models
@@ -49,4 +51,14 @@ DB Design
     Relationship -> City has many airports and Airport belongs to a city (one to many)
 
 
+
+flow : model repo service controller route
+
+1.model: 
+2.repo   : interact with database
+3.service : business logic 
+4.controller : just to pass request
+5.
+6.
+7.
 
